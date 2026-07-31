@@ -1,0 +1,2 @@
+export const metadata = { title: 'Azion Implementation Portal' };
+export default function RootLayout({ children }) { return (<html lang="pt-BR"><body style={{ margin: 0, fontFamily: 'system-ui, sans-serif' }}>{children}</body></html>); }
