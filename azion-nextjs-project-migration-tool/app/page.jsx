@@ -55,6 +55,26 @@ export default function Home() {
             </a>
           </article>
 
+          <article style={{ background: 'white', borderRadius: '8px', border: '1px solid #e1e4e8', padding: '1.75rem', display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}>
+            <div>
+              <div style={{ marginBottom: '1rem' }}>
+                <span style={{ backgroundColor: '#f36523', color: 'white', padding: '4px 8px', borderRadius: '4px', fontSize: '0.75rem', textTransform: 'uppercase', fontWeight: 'bold' }}>Sincronização</span>
+                <h4 style={{ fontSize: '1.25rem', color: '#1c1c1c', marginTop: '0.5rem', marginBottom: '0.5rem' }}>Import Cloudflare Acls Para Azion Networklists</h4>
+              </div>
+              <p style={{ fontSize: '0.9rem', color: '#6c757d', marginBottom: '1.2rem' }}>
+                Sincronize automaticamente as listas de IP/ACLs da Cloudflare diretamente para o Azion Network Lists.
+              </p>
+              <ul style={{ listStyle: 'none', fontSize: '0.85rem', marginBottom: '1.5rem' }}>
+                <li style={{ marginBottom: '0.5rem' }}>✓ Requer Cloudflare Account ID</li>
+                <li style={{ marginBottom: '0.5rem' }}>✓ Requer Token de API Cloudflare</li>
+                <li style={{ marginBottom: '0.5rem' }}>✓ Requer Token de API Azion</li>
+              </ul>
+            </div>
+            <a href="/cf-networklists-import" style={{ display: 'inline-block', width: '100%', textAlign: 'center', backgroundColor: '#f36523', color: 'white', textDecoration: 'none', padding: '0.75rem 1rem', borderRadius: '6px', fontWeight: 600, fontSize: '0.95rem' }}>
+              Acessar Sincronizador ACLs ↗
+            </a>
+          </article>
+
         </section>
 
         <h3 style={{ fontSize: '1.4rem', color: '#1c1c1c', marginBottom: '1.5rem', borderBottom: '2px solid #e1e4e8', paddingBottom: '0.5rem' }}>📂 Automações por Arquivo (BIND Zone File)</h3>
