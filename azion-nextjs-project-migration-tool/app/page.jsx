@@ -24,13 +24,13 @@ export default function Home() {
               <p style={{ fontSize: '0.9rem', color: '#6c757d', marginBottom: '1.2rem' }}>
                 Interface para leitura e migração de registros de DNS da Cloudflare com autonomia para o próprio cliente.
               </p>
-              <ul style={{ listStyle: 'none', fontSize: '0.85rem', marginBottom: '1.5rem' }}>
+              <ul style={{ listStyle: 'none', fontSize: '0.85rem', marginBottom: '1.5rem', paddingLeft: 0 }}>
                 <li style={{ marginBottom: '0.5rem' }}>✓ Migração massiva de zonas em poucos segundos</li>
                 <li style={{ marginBottom: '0.5rem' }}>✓ Self-service: o cliente realiza sem expor credenciais sensíveis</li>
                 <li style={{ marginBottom: '0.5rem' }}>✓ Validação e mapeamento automatizado de entradas</li>
               </ul>
             </div>
-            <a href="/cf-migration" style={{ display: 'inline-block', width: '100%', textAlign: 'center', backgroundColor: '#f36523', color: 'white', textDecoration: 'none', padding: '0.75rem 1rem', borderRadius: '6px', fontWeight: 600, fontSize: '0.95rem' }}>
+            <a href="/cf-dns-import" style={{ display: 'inline-block', width: '100%', textAlign: 'center', backgroundColor: '#f36523', color: 'white', textDecoration: 'none', padding: '0.75rem 1rem', borderRadius: '6px', fontWeight: 600, fontSize: '0.95rem' }}>
               Acessar Importador de DNS ↗
             </a>
           </article>
@@ -44,7 +44,7 @@ export default function Home() {
               <p style={{ fontSize: '0.9rem', color: '#6c757d', marginBottom: '1.2rem' }}>
                 Crie automaticamente Connectors, Edge Applications e Workloads agrupados por destino no ambiente Azion.
               </p>
-              <ul style={{ listStyle: 'none', fontSize: '0.85rem', marginBottom: '1.5rem' }}>
+              <ul style={{ listStyle: 'none', fontSize: '0.85rem', marginBottom: '1.5rem', paddingLeft: 0 }}>
                 <li style={{ marginBottom: '0.5rem' }}>✓ Deduplicação automática por Target Content</li>
                 <li style={{ marginBottom: '0.5rem' }}>✓ Clona a Edge Application base e vincula os domínios</li>
                 <li style={{ marginBottom: '0.5rem' }}>✓ Gera relatório em PDF para evidência de entrega</li>
@@ -64,7 +64,7 @@ export default function Home() {
               <p style={{ fontSize: '0.9rem', color: '#6c757d', marginBottom: '1.2rem' }}>
                 Sincronize automaticamente as listas de IP/ACLs da Cloudflare diretamente para o Azion Network Lists.
               </p>
-              <ul style={{ listStyle: 'none', fontSize: '0.85rem', marginBottom: '1.5rem' }}>
+              <ul style={{ listStyle: 'none', fontSize: '0.85rem', marginBottom: '1.5rem', paddingLeft: 0 }}>
                 <li style={{ marginBottom: '0.5rem' }}>✓ Requer Cloudflare Account ID</li>
                 <li style={{ marginBottom: '0.5rem' }}>✓ Requer Token de API Cloudflare</li>
                 <li style={{ marginBottom: '0.5rem' }}>✓ Requer Token de API Azion</li>
@@ -97,7 +97,7 @@ export default function Home() {
                 • <strong>High-Volume:</strong> Processa centenas de registros em um único upload.
               </div>
 
-              <ul style={{ listStyle: 'none', fontSize: '0.85rem', marginBottom: '1.5rem' }}>
+              <ul style={{ listStyle: 'none', fontSize: '0.85rem', marginBottom: '1.5rem', paddingLeft: 0 }}>
                 <li style={{ marginBottom: '0.5rem' }}>✓ Parse automático de registros A, CNAME, TXT, MX e SRV</li>
                 <li style={{ marginBottom: '0.5rem' }}>✓ Higienização e validação de sintaxe pré-importação</li>
                 <li style={{ marginBottom: '0.5rem' }}>✓ Ideal para cenários com travas rígidas de segurança/compliance</li>
