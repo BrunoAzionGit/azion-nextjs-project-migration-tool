@@ -10,8 +10,8 @@ export default function CfMigration() {
   });
   const [status, setStatus] = useState({ loading: false, message: '', type: '' });
 
-  const N8N_FORM_URL = "https://n8n-revops.azion.net/form/920f753d-fe17-48fe-863c-ac7bf11863a8";
-
+  #const N8N_FORM_URL = "https://n8n-revops.azion.net/form/920f753d-fe17-48fe-863c-ac7bf11863a8";
+  const N8N_FORM_URL =  "https://enktjce9wes.map.azionedge.net/form/920f753d-fe17-48fe-863c-ac7bf11863a8";
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
